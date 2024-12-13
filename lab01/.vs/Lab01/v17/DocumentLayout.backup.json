@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Lab01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0931E9B-CB4B-4AF6-A0F7-2B7A3ECBB656}|Lab01\\Lab01.csproj|c:\\users\\user\\source\\repos\\lab01\\lab01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0931E9B-CB4B-4AF6-A0F7-2B7A3ECBB656}|Lab01\\Lab01.csproj|solutionrelative:lab01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0931E9B-CB4B-4AF6-A0F7-2B7A3ECBB656}|Lab01\\Lab01.csproj|C:\\Users\\user\\source\\repos\\Lab01\\lab01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F0931E9B-CB4B-4AF6-A0F7-2B7A3ECBB656}|Lab01\\Lab01.csproj|solutionrelative:lab01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Lab01\\Lab01\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab01\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Lab01\\Lab01\\MainWindow.xaml",
+              "RelativeToolTip": "Lab01\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T06:30:45.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Lab01\\Lab01\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab01\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Lab01\\Lab01\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab01\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAUwDEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:30:42.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

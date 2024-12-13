@@ -1,0 +1,45 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="TextEditor.MainWindow"
+        Title="Текстовий редактор" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Відкрити" Click="OpenFile"/>
+                    <MenuItem Header="Зберегти" Click="SaveFile"/>
+                </MenuItem>
+                <MenuItem Header="Правка">
+                    <MenuItem Header="Копіювати" Click="CopyText"/>
+                    <MenuItem Header="Вставити" Click="PasteText"/>
+                    <MenuItem Header="Вирізати" Click="CutText"/>
+                    <MenuItem Header="Відміна" Click="UndoAction"/>
+                </MenuItem>
+                <MenuItem Header="Справка">
+                    <MenuItem Header="Про текстовий редактор" Click="AboutApp"/>
+                </MenuItem>
+            </Menu>
+
+            <TabControl x:Name="TabControlTextEditors" DockPanel.Dock="Top" VerticalAlignment="Top">
+            </TabControl>
+
+            <Button Content="+" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10" Width="30" Height="30" Click="AddNewTab"/>
+        </DockPanel>
+
+        <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="α" Width="40" Height="40" Margin="5" Click="InsertGreekAlpha"/>
+                <Button Content="β" Width="40" Height="40" Margin="5" Click="InsertGreekBeta"/>
+                <Button Content="µ" Width="40" Height="40" Margin="5" Click="InsertGreekMu"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
